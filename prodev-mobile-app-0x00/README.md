@@ -34,17 +34,14 @@ Would you like me to:
 Just tell me 👇
 
 
-# prodev-mobile-app-0x00 — First Expo Router App
+## Resetting the Project
 
-## Objective
-Create a basic Expo Router app, change the home screen text to **First App Created**, run the app on a device, and document the reset behavior.
+The project uses a custom script called **reset-project** to clear the Expo cache.
 
----
+### Script (in package.json)
 
-## Steps followed (scaffolding)
-
-1. Navigate to the project folder:
-   ```bash
-   cd prodev-mobile-setup
-   mkdir prodev-mobile-app-0x00
-   cd prodev-mobile-app-0x00
+```json
+"scripts": {
+  "start": "expo start",
+  "reset-project": "expo start -c"
+}
