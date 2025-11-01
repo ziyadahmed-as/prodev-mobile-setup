@@ -32,3 +32,19 @@ Would you like me to:
 🧠 explain Expo Router deeper?  
 
 Just tell me 👇
+
+
+# prodev-mobile-app-0x00 — First Expo Router App
+
+## Objective
+Create a basic Expo Router app, change the home screen text to **First App Created**, run the app on a device, and document the reset behavior.
+
+---
+
+## Steps followed (scaffolding)
+
+1. Navigate to the project folder:
+   ```bash
+   cd prodev-mobile-setup
+   mkdir prodev-mobile-app-0x00
+   cd prodev-mobile-app-0x00
